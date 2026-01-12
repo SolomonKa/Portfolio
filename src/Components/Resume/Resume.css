@@ -1,0 +1,44 @@
+.res-flex {
+    display: flex;
+    justify-content: start;
+    margin: 2rem 0 2rem 0;
+}
+
+.subtitle-2 {
+    margin-bottom: 1rem;
+    color: var(--foreground);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.cv-icon-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
+    width: 50px;
+    height: 50px;
+    margin-right: 2rem;
+    border-radius: 0.4rem;
+}
+
+.cv-img {
+    color: var(--primary);
+    width: 35px;
+    height: 35px;
+}
+
+.cv-desctipt {
+    font-weight: 200;
+    color: var(--muted-foreground);
+    max-width: 475px;
+    line-height: 1.4rem;
+}
+
+.cv-btn-top {
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 0.4rem !important;
+}
+
+

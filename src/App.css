@@ -1,0 +1,89 @@
+:root {
+  --max-width: 896px;
+  --section-padding:5rem 2rem 5rem 2rem ;
+}
+
+* {
+  font-family: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.section {
+  padding: var(--section-padding);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto; /* horizontal alignment */
+}
+
+.background {
+  background-color: var(--background);
+}
+
+.background-2 {
+  background-color: var(--section-alt);
+}
+
+.title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--foreground);
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: var(--radius);
+    background-color: var(--primary);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: var(--primary-foreground);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+    animation-duration: 200ms;
+}
+
+.btn-primary:hover {
+     background-color: hsla(175, 50%, 35%, 0.8);;
+}
+
+.btn-outline {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: var(--foreground);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.2s;
+    animation-duration: 0.2s;
+    gap: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    border-width: 1px;
+    margin-left: 1rem;
+    padding: 0.625rem 1.25rem;
+}
+
+.btn-outline:hover {
+    background: var(--secondary);
+}
+
+.text-secondary {
+    color: var(--muted-foreground);
+}
+
+.text-primary {
+    color: var(--primary);
+}

@@ -1,0 +1,87 @@
+[data-mode="light"] {
+    --background: #FCF9F5;
+    --foreground: #141820;
+
+    --card: #F7F5F2;
+    --card-foreground: #141820;
+
+    --popover: #F7F5F2;
+    --popover-foreground: #141820;
+
+    --primary: #2D8C84;
+    --primary-foreground: #FFFFFF;
+
+    --secondary: #EDEBE8;
+    --secondary-foreground: #373D49;
+
+    --muted: #E8E6E2;
+    --muted-foreground: #6B7180;
+
+    --accent: #E2F4F3;
+    --accent-foreground: #206B65;
+
+    --destructive: #F23838;
+    --destructive-foreground: #FFFFFF;
+
+    --border: #E4E0D9;
+    --input: #E4E0D9;
+    --ring: #2D8C84;
+    
+    /* Custom tokens */
+    --nav-bg: #FCF9F5CC;
+    --section-alt: #F4F2EF;
+    --tag-bg: #EDEBE8;
+    --tag-text: #3D4350;
+    --card-hover: #F0EDE9;
+}
+
+[data-mode="dark"] {
+    --background: #111419;
+    --foreground: #EDEBE8;
+
+    --card: #191C23;
+    --card-foreground: #EDEBE8;
+
+    --popover: #191C23;
+    --popover-foreground: #EDEBE8;
+
+    --primary: #3AB5AB;
+    --primary-foreground: #111419;
+
+    --secondary: #282D36;
+    --secondary-foreground: #DDDAD5;
+
+    --muted: #242931;
+    --muted-foreground: #938F87;
+
+    --accent: #243634;
+    --accent-foreground: #66D4CC;
+
+    --destructive: #CF3131;
+    --destructive-foreground: #FFFFFF;
+
+    --border: #282D36;
+    --input: #282D36;
+    --ring: #3AB5AB;
+
+    /* Custom tokens dark */
+    --nav-bg: #111419E6;
+    --section-alt: #161A20;
+    --tag-bg: #242931;
+    --tag-text: #C9C5BE;
+    --card-hover: #1F2329;
+}
+
+:root {
+    /* font-size: 16px; */
+    --radius: 0.5rem;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/Outfit/Font/Outfit/Outfit-VariableFont_wght.ttf")
+       format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,34 @@
+ .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ab-top {
+    padding-top: 0;
+}
+
+ .about {
+    max-width: 30rem;
+}
+
+.secondary-title {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.p1 {
+    font-weight: 300;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.btn-width-match {
+    width: 5rem;
+    height: 1.2rem;
+}
+
+.links-container {
+    margin-top: 1.5rem;
+}

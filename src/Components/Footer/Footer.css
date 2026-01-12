@@ -1,0 +1,9 @@
+.foot-section {
+    padding-top: 2.2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}

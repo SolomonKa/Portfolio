@@ -1,0 +1,8 @@
+@import './Style/reset.css';
+@import './Style/theme.css';
+
+html {
+  scroll-behavior: smooth;
+}
+
+

@@ -1,0 +1,38 @@
+.links {
+    display: flex;
+    flex-direction: column;
+       * {
+        text-decoration: none;
+        color: var(--foreground);
+    }
+
+.link-container {
+    display: inline-flex;
+    flex-direction: start;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.link-container:hover {
+    color: var(--primary);
+}
+
+.link-container:hover .lk-box {
+    background-color: var(--primary);
+}
+
+.link-container:hover .icon {
+    stroke: var(--primary-foreground);
+}
+
+.lk-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 0.4rem;
+    background-color: var(--accent);
+}
+
