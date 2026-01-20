@@ -4,7 +4,7 @@ type Scroll = boolean;
 
 const scrollContext = createContext<Scroll | undefined>(undefined)
 
-export function ScrollProider({children}: {Children: ReactNode}) {
+export function ScrollProider({children}: {children: ReactNode}) {
     const [isScrolled, setIsScrolled] = useState(false)
      const timeoutRef = useRef<number | null>(null);
 

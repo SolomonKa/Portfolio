@@ -18,11 +18,6 @@ function App() {
           <section id='projects'><Project /></section>
           <section id='cv'><Resume /></section>
           <section id='contact'><Contact /></section>
-          
-
-         
-
-         
       </main>
       <Footer />
     </>
