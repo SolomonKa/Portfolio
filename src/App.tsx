@@ -13,11 +13,16 @@ function App() {
     <>  
       <Navbar />
       <main>
-          <About />
-          <Skills />
-          <Project />
-          <Resume />
-          <Contact />
+          <section id='about'><About /></section>
+          <section id='skills'><Skills /></section>
+          <section id='projects'><Project /></section>
+          <section id='cv'><Resume /></section>
+          <section id='contact'><Contact /></section>
+          
+
+         
+
+         
       </main>
       <Footer />
     </>

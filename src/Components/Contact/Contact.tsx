@@ -7,8 +7,8 @@ function Contact() {
         <>
             <section className='section background'>
                 <div className='container contact-container'>  
-                    <h2 className='subtitle-2'>GET IN TOUCH</h2>
-                    <p className='cv-desctipt'>I'm currently open to junior frontend developer opportunities. Feel free to reach out if you'd like to connect or discuss potential collaborations.</p>
+                    <h2 className='subtitle'>Contacte</h2>
+                    <p className='cv-desctipt'>Je suis actuellement à la recherche d’opportunités en alternance. N’hésitez pas à me contacter pour échanger ou discuter de collaborations potentielles.</p>
                     <div className='links'>
                         <a href="mailto:solokalandadze@gmail.com" className='link-container'>
                            <div className='lk-box'>
@@ -20,13 +20,13 @@ function Contact() {
                            <div className='lk-box'>
                                 {<Github size={20} className='icon'/>} 
                             </div> 
-                                https://github.com/SolomonKa
+                                GitHub
                             </a>    
-                        <a href='linkedin.com' className='link-container'>
+                        <a href='https://www.linkedin.com/in/solomon-kalandadze-95899092/' target='blank' className='link-container'>
                            <div className='lk-box'>
                                 {<Linkedin size={20} className='icon'/>} 
                             </div> 
-                                https://linkedin.com/Solokl
+                                Linkedin
                             </a>   
                     </div>
 

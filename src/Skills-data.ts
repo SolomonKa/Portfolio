@@ -1,19 +1,19 @@
 const skills = [
   {
     category: "Frontend",
-    technologies: ["React", "HTML5", "CSS3", "JavaScript", "TypeScript"]
+    technologies: ["React", "HTML5", "CSS", "JavaScript", "TypeScript"]
   },
   {
     category: "Backend",
     technologies: ["Node.js", "Express.js", "MySQL"]
   },
   {
-    category: "Styling",
-    technologies: ["CSS", "Figma", "Libraries"]
+    category: "Dev Tools",
+    technologies: ["Git", "GitHub",'AI', "Postman", "VS Code", 'Figma']
   },
   {
-    category: "Dev Tools",
-    technologies: ["Git", "GitHub", "VS Code", "Postman", "npm/yarn"]
+    category: "Learning",
+    technologies: ["Test", "Sécurité"]
   },
   {
     category: "Soft Skills",

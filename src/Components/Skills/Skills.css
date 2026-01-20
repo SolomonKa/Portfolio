@@ -12,9 +12,11 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     color: var(--muted-foreground);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .skill-box {
@@ -30,7 +32,7 @@
     font-size: 0.875rem;
     line-height: 1rem;
     background: var(--tag-bg);
-    color: var(--tag-text);
+    color: var(--primary);
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 0.2s;

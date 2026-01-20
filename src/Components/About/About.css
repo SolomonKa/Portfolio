@@ -5,6 +5,15 @@
     height: 100vh;
 }
 
+.title-a {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    color: var(--foreground);
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 600;
+}
+
 .ab-top {
     padding-top: 0;
 }
@@ -19,9 +28,10 @@
 }
 
 .p1 {
-    font-weight: 300;
-    margin-top: 0.625rem;
-    margin-bottom: 0.625rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 .btn-width-match {
@@ -30,5 +40,5 @@
 }
 
 .links-container {
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
 }
