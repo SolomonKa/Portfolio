@@ -36,7 +36,7 @@ function Skills() {
                                 </div>
                             </div>
                             <div className='skill-box'>
-                                <h2 className='text-secondary'>En apprentissage</h2>
+                                <h2 className='text-secondary'>Apprentissage Continu</h2>
                                 <div className="flex-skl">
                                     {learning?.technologies.map(tech => <span className='tech-box' key={tech}>{tech}</span>)}
                                 </div>

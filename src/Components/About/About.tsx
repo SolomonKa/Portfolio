@@ -14,8 +14,8 @@ function About() {
                     <p className='text-secondary p1'>Passionné par la création et les technologies modernes, je développe des solutions fullstack. Actuellement concentré sur les écosystèmes React et Express</p>
                     <div className='links-container'>
                         <a href='../../../public/cv/CV_Solomon-KALANDADZE.pdf' target='_blank' rel="noopener noreferrer" className="btn-primary btn-width-match"><FileText />CV</a>
-                        <a href="github" className="btn-outline btn-width-match"><Github /> Github</a>
-                        <a href="https://www.linkedin.com/in/solomon-kalandadze-95899092/" target='_blank' className="btn-outline btn-width-match"><Linkedin /> Linkedin</a>
+                        <a href="https://github.com/SolomonKa" className="btn-outline btn-width-match"><Github /> Github</a>
+                        <a href="https://www.linkedin.com/in/solomon-kalandadze-95899092/" target="_blank" className="btn-outline btn-width-match"><Linkedin /> Linkedin</a>
                     </div>
                 </div>
                </div>

@@ -3,7 +3,7 @@ import './Footer.css'
 const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'CV', href: '#cv' },
 ];
 
 function Footer(){

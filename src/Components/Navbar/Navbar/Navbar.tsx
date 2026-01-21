@@ -6,9 +6,9 @@ import { Moon, Sun } from 'lucide-react'
 type Scroll = boolean
 
 const navItems = [
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'À propos', href: '#about' },
+  { label: 'Compétences', href: '#skills' },
+  { label: 'Projets', href: '#projects' },
   { label: 'CV', href: '#cv' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -18,7 +18,6 @@ function Navbar() {
     const [isScrolled, setIsScrolled] = useState<Scroll>(false)
 
     const modeIcon = theme === 'light' ? <Moon size={18}/> : <Sun size={18}/>
-    // const modeLabel = theme === 'light' ? 'Dark Mode' : 'Light Mode'
 
     useEffect(() => {
         const handleScroll = () => {
