@@ -1,13 +1,19 @@
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import { ThemeProvider } from './Context/ThemeContext.tsx'
-import { ScrollProider } from './Context/ScrollContext.tsx'
+import { createRoot } from "react-dom/client";
+import App from "./App.tsx";
+import { ScrollProider } from "./Context/ScrollContext.tsx";
+import { ThemeProvider } from "./Context/ThemeContext.tsx";
+import "./index.css";
 
-createRoot(document.getElementById('root')!).render(
-    <ScrollProider >
-        <ThemeProvider >
-            <App />
-        </ThemeProvider>    
-    </ScrollProider>
-)
+const rootElement = document.getElementById("root");
+
+if (!rootElement) {
+	throw new Error("Failed to find root element");
+}
+
+createRoot(rootElement).render(
+	<ScrollProider>
+		<ThemeProvider>
+			<App />
+		</ThemeProvider>
+	</ScrollProider>,
+);

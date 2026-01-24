@@ -1,8 +1,6 @@
-@import './Style/reset.css';
-@import './Style/theme.css';
+@import "./Style/reset.css";
+@import "./Style/theme.css";
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
-
-
