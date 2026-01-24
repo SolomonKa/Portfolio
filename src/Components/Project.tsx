@@ -1,4 +1,4 @@
-import "./Project.css";
+import "../Style/Project.css";
 
 function Project() {
 	return (

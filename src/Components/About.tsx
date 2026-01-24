@@ -1,4 +1,4 @@
-import "./About.css";
+import "../Style/About.css";
 import { FileText, Github, Linkedin } from "lucide-react";
 
 function About() {

@@ -1,4 +1,4 @@
-import "./contact.css";
+import "../Style/contact.css";
 import { Github, Linkedin, Mail } from "lucide-react";
 
 function Contact() {

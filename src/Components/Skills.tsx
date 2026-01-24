@@ -1,5 +1,5 @@
-import data from "../../Skills-data";
-import "./Skills.css";
+import data from "../Skills-data";
+import "../Style/Skills.css";
 
 const frontend = data.find((e) => e.category === "Frontend");
 const backend = data.find((e) => e.category === "Backend");
