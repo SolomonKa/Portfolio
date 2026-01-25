@@ -1,4 +1,12 @@
 import "./App.css";
+import "./Style/About.css";
+import "./Style/Navbar.css";
+import "./Style/Skills.css";
+import "./Style/Project.css";
+import "./Style/Resume.css";
+import "./Style/Contact.css";
+import "./Style/Footer.css";
+
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";

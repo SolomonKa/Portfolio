@@ -1,4 +1,3 @@
-import "../Style/Resume.css";
 import { Download, FileUser } from "lucide-react";
 
 function Resume() {

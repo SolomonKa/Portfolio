@@ -1,5 +1,3 @@
-import "../Style/Project.css";
-
 function Project() {
 	return (
 		<section className="section background">

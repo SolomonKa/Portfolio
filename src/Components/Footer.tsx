@@ -1,5 +1,3 @@
-import "../Style/Footer.css";
-
 const navItems = [
 	{ label: "About", href: "#about" },
 	{ label: "Projects", href: "#projects" },
