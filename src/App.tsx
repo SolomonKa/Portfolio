@@ -1,11 +1,11 @@
 import "./App.css";
-import "./Style/About.css";
-import "./Style/Navbar.css";
-import "./Style/Skills.css";
-import "./Style/Project.css";
-import "./Style/Resume.css";
-import "./Style/contact.css";
-import "./Style/Footer.css";
+import "./Style/About.style.css";
+import "./Style/Navbar.style.css";
+import "./Style/Skills.style.css";
+import "./Style/Project.style.css";
+import "./Style/Resume.style.css";
+import "./Style/Contact.style.css";
+import "./Style/Footer.style.css";
 
 import About from "./Components/About";
 import Contact from "./Components/Contact";

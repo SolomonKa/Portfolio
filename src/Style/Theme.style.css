@@ -64,7 +64,6 @@
 	--input: #282d36;
 	--ring: #3ab5ab;
 
-	/* Custom tokens dark */
 	--nav-bg: #111419e6;
 	--section-alt: #161a20;
 	--tag-bg: #242931;
@@ -73,7 +72,6 @@
 }
 
 :root {
-	/* font-size: 16px; */
 	--radius: 0.5rem;
 }
 

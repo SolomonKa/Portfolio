@@ -50,15 +50,11 @@
 
 .theme-mode-btn {
 	margin-top: 0.25rem;
-	/* text-decoration: none; */
-	/* font-size: 0.875rem; */
 	color: var(--muted-foreground);
 	background: transparent;
 	border: none;
 	cursor: pointer;
 	transition: color 0.2s ease;
-	/* padding: 0.5; */
-	/* border: 1px; */
 }
 
 .theme-mode-btn:hover {
