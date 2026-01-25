@@ -25,17 +25,24 @@ function Navbar() {
 	const modeIcon = theme === "light" ? <Moon size={24} /> : <Sun size={24} />;
 
 	useEffect(() => {
+		let timeoutId: ReturnType<typeof setTimeout> | undefined;;
+
 		const handleScroll = () => {
+			clearTimeout(timeoutId)
+
 			setIsScrolled(window.scrollY > 20);
 
-			window.setTimeout(() => {
+			timeoutId = setTimeout(() => {
 				setIsScrolled(false);
-			}, 2000);
+			}, 500);
 		};
 
 		window.addEventListener("scroll", handleScroll);
 
-		return () => window.removeEventListener("scroll", handleScroll);
+		return () => {
+			clearTimeout(timeoutId);
+			window.removeEventListener("scroll", handleScroll)
+		};
 	}, []);
 
 	const handleClick = () => {
