@@ -1,3 +1,5 @@
+import "./Style/Reset.style.css";
+import "./Style/Theme.style.css";
 import "./App.css";
 import "./Style/About.style.css";
 import "./Style/Navbar.style.css";
