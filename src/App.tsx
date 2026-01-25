@@ -4,7 +4,7 @@ import "./Style/Navbar.css";
 import "./Style/Skills.css";
 import "./Style/Project.css";
 import "./Style/Resume.css";
-import "./Style/Contact.css";
+import "./Style/contact.css";
 import "./Style/Footer.css";
 
 import About from "./Components/About";
