@@ -9,7 +9,7 @@ function Footer() {
 		<footer className="section foot-section background-2">
 			<div className="container footer-container">
 				<div>
-					<p className="cv-desctipt">
+					<p className="cv-desctipt" id="footer-l-text">
 						© 2026 Solomon Kalandadze. Built with React & CSS
 					</p>
 				</div>

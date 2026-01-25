@@ -7,3 +7,10 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+	#footer-l-text {
+		font-size: 0.8rem;
+		max-width: 25ch;
+	}
+}
