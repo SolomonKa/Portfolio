@@ -20,8 +20,6 @@ function Navbar() {
 	const [isScrolled, setIsScrolled] = useState<Scroll>(false);
 	const [open, setOpen] = useState(false);
 
-	console.log(isMobile)
-
 	const modeIcon = theme === "light" ? <Moon size={24} /> : <Sun size={24} />;
 
 	useEffect(() => {
