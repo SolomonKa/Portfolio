@@ -17,7 +17,7 @@ function About() {
 					</p>
 					<div className="links-container">
 						<a
-							href="../../public/cv/CV_KALANDADZE-Solomon.pdf"
+							href="/public/cv/CV_KALANDADZE-Solomon.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="btn-primary btn-width-match"
