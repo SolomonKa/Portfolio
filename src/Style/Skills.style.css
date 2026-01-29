@@ -9,6 +9,8 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
+
+
 	}
 }
 
@@ -49,4 +51,15 @@
 
 .tech-box:hover {
 	color: var(--primary);
+}
+
+@media (max-width: 768px) {
+	.grid-container {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+	.tech-box {
+		margin: 1rem 1rem 0 0;
+	}
 }

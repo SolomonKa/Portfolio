@@ -1,0 +1,65 @@
+.card {
+    color: var(--destructive-foreground);
+    /* background-image: url(/public/images/background-home-RiKRptrv.jpg); */
+    background-color: var(--muted);
+    background-size: cover;
+    padding: 6rem 0 0;
+    max-width: 30ch;
+    line-height: 1.3;
+}
+
+.card-content {
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% 0% / 0)
+        hsl(20 0% 0% / .3) 10%
+        hsl(0 0% 0% / 1)
+    )
+}
+
+.card-title { 
+    position: relative;
+    font-size: 1.6rem;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
+    width: max-content;
+}
+
+.card-title::after {
+    content: '';
+    position: absolute;
+    left: calc(var(--padding) * -1);
+    bottom: 0;
+    width: calc(100% + var(--padding));
+    height: 2px;
+    background: var(--primary);
+}
+
+.card-body {
+    font-weight: 300;
+    padding-bottom: 1.2rem;
+}
+
+.techno-used {
+    padding-bottom: 1.2rem;
+}
+
+.card-button {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--primary);
+	color: var(--primary-foreground);
+    padding: 0.3em 1em;
+
+}
+
+.card-button2 {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--primary);
+	color: var(--foreground);
+    padding: 0.3em 1em;
+}

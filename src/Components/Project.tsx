@@ -33,8 +33,8 @@ function Project() {
 								Source Code
 							</a>
 						</div>
-					</div>
-					<div className="pj-content">
+					</div> 
+					 <div className="pj-content">
 						<h3 className="pg-title">Team Up</h3>
 						<p className="pj-desctipt">
 							Application sportive pour publier des activités et trouver des
