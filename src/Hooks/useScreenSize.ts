@@ -6,12 +6,12 @@ export function useScreenSize() {
 	});
 
 	useEffect(() => {
-		let timeputId: ReturnType<typeof setTimeout> | undefined;
+		let timeoutId: ReturnType<typeof setTimeout> | undefined;
 
 		const handleResize = () => {
-			clearTimeout(timeputId);
+			clearTimeout(timeoutId);
 
-			timeputId = setTimeout(() => {
+			timeoutId = setTimeout(() => {
 				setScreenSize({
 					isMobile: window.innerWidth < 768,
 				});
@@ -21,7 +21,7 @@ export function useScreenSize() {
 		window.addEventListener("resize", handleResize);
 
 		return () => {
-			clearTimeout(timeputId);
+			clearTimeout(timeoutId);
 			window.removeEventListener("resize", handleResize);
 		};
 	}, []);
