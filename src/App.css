@@ -79,7 +79,7 @@
 
 @media (max-width: 768px) {
 	.btn-outline {
-		margin-right: 0.4rem;
+		margin-left: 0; 
 	}
 }
 

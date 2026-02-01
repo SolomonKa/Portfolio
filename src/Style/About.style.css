@@ -43,13 +43,8 @@
 .links-container {
 	margin-top: 1.8rem;
 	display: flex;
-	flex-wrap: wrap
+	flex-wrap: wrap;
+	gap: 0.4rem;
 }
 
-
-/* @media (max-width: 768px) {
-	.about-container {
-	max-width: 80%;
-}
-} */
 
