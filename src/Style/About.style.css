@@ -45,3 +45,10 @@
 	display: flex;
 }
 
+
+@media (max-width: 768px) {
+	.about-container {
+	max-width: 90%;
+}
+}
+
