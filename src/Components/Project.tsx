@@ -15,7 +15,7 @@ function Project() {
 							<span className="tech-pj-box">CSS / Responsive</span>
 							<span className="tech-pj-box">API</span>
 						</div>
-						<div>
+						<div className="outbuttons-flx">
 							<a
 								href="https://cinemood-ebon.vercel.app"
 								target="_blank"

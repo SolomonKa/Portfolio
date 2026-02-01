@@ -54,3 +54,12 @@
 	background-color: var(--secondary);
 	text-decoration: none;
 }
+
+
+@media (max-width: 768px) {
+	.outbuttons-flx {
+		display: flex;
+		flex: wrap;
+		gap: 0.4rem;
+	}
+}
