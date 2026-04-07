@@ -13,7 +13,7 @@ const skills = [
 	},
 	{
 		category: "Learning",
-		technologies: ["Test", "Sécurité"],
+		technologies: ["Agentic AI", "SDK AI"],
 	},
 	{
 		category: "Soft Skills",

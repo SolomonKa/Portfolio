@@ -23,7 +23,7 @@ function Navbar() {
 	const modeIcon = theme === "light" ? <Moon size={24} /> : <Sun size={24} />;
 
 	useEffect(() => {
-		let timeoutId: ReturnType<typeof setTimeout> | undefined;;
+		let timeoutId: ReturnType<typeof setTimeout> | undefined;
 
 		const handleScroll = () => {
 			clearTimeout(timeoutId)

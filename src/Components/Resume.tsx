@@ -18,7 +18,7 @@ function Resume() {
 					</div>
 				</div>
 				<a
-					href="/CV_KALANDADZE-Solomon.pdf"
+					href="/CV_Solomon-KALANdADZE.pdf"
 					download="Solomon-KALANDADZE_CV"
 					rel="noopener noreferrer"
 					className="btn-primary cv-btn-top"
