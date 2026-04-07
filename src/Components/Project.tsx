@@ -47,6 +47,16 @@ function Project() {
 							<span className="tech-pj-box">Express </span>
 							<span className="tech-pj-box">SQL</span>
 						</div>
+						<div className="outbuttons-flx">
+							<a
+								href="https://github.com/SolomonKa/p3-remote-vert-teamup"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="btn-outline-tm pj-btn-sec"
+							>
+								Source Code
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

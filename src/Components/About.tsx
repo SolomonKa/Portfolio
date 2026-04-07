@@ -11,9 +11,7 @@ function About() {
 						Développeur Fullstack Junior
 					</h2>
 					<p className="text-secondary p1">
-						Passionné par la création et les technologies modernes, je développe
-						des solutions fullstack. Actuellement concentré sur les écosystèmes
-						React et Express
+						Passionné par l’innovation et les technologies modernes, je conçois des solutions fullstack et explore activement l’IA agentique et les SDK d’IA pour repousser les limites.
 					</p>
 					<div className="links-container">
 						<a
